@@ -63,24 +63,18 @@
     </nav>
     <!-- inicio div livros -->
 <!-- Large modal -->
-@for($i = 0; $i < 10; $i++)   
-<div class="modal fade bd-example-modal-lg{{$i}} " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+<div class="modal fade bd-example-modal-lg0 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="container">
         <div class="row">
-          <center><div class="col-9"><h1 id="{{$i}}t" ></h1></div></center>
-          <div class="col-4"><img id="{{$i}}f" style=" min-height:  500px; "></div>
-          <div class="col-6"><p id="{{$i}}m"><p id="{{$i}}d"class="div2"></p>
+          <center><div class="col-9"><h1 id="0t" ></h1></div></center>
+          <div class="col-4"><img id="0f" style=" min-height:  500px; "></div>
+          <div class="col-6"><p id="0m"><p id="0d"class="div2"></p>
             <div class="container text-center">
               <div class="row">
-                <div class="reacao-grid"></div>
-                <a href="">
-                  <picture>
-                    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f92f/512.webp" type="image/webp">
-                    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f92f/512.gif" alt="🤯" width="64" height="64">
-                  </picture>
-                </a>
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
               </div>
             </div></div>
         </div>
@@ -92,7 +86,206 @@
     </div>
   </div>
 </div>
-@endfor
+<div class="modal fade bd-example-modal-lg1 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="row">
+        <center> <div class="col-9"><h1 id="1t"></h1></div></center>
+      <div class="col-4"><img id="1f"style=" min-height:  500px; "></div>
+      <div class="col-6"><p id="1m"><p id="1d" class="div2"></p>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+            <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+          </div>
+        </div></div>
+    </div>
+  </div>
+  </div>
+      </div>
+      <div class="clearfix">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg2 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="row">
+        <center> <div class="col-9"><h1 id="2t"></h1></div></center>
+        <div class="col-4"><img id="2f" style=" min-height:  500px; max-width:  330px;  "></div>
+        <div class="col-6"><p id="2m"><p id="2d" class="div2"></p><div class="container text-center">
+          <div class="row">
+            <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+            <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+    </div>
+        </div>
+      <div class="clearfix">  
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg3 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="clearfix">
+        <div class="row">
+          <center>   <div class="col-9"><h1 id="3t"></h1></div></center>
+          <div class="col-4"><img id="3f" style=" min-height:  500px; max-width:  330px;  "></div>
+          <div class="col-6"><p id="3m"><p id="3d" class="div2"></p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+              </div>
+            </div></div>
+        </div>
+      </div>
+      </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg4 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="clearfix">
+        <div class="row">
+          <center>   <div class="col-9"><h1 id="4t"></h1></div></center>
+          <div class="col-4"><img id="4f" style=" min-height:  500px; max-width:  330px;  "></div>
+          <div class="col-6"><p id="4m"><p id="4d" class="div2"></p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg5 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="clearfix">
+        <div class="row">
+          <center> <div class="col-9"><h1 id="5t"></h1></div></center>
+          <div class="col-4"><img id="5f" style=" min-height:  500px;  max-width:  330px; " ></div>
+          <div class="col-6"><p id="5m"><p id="5d" class="div2" ></p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg6 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="clearfix">
+        <div class="row">
+          <center>  <div class="col-9"><h1 id="6t"></h1></div></center>
+          <div class="col-4"><img id="6f" style=" min-height:  500px; max-width:  330px;  "></div>
+          <div class="col-6"><p id="6m"><p id="6d" class="div2"></p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg7 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="clearfix">
+        <div class="row">
+          <center>  <div class="col-9"><h1 id="7t"></h1></div></center>
+          <div class="col-4"><img id="7f" style=" min-height:  500px; max-width:  330px;  "></div>
+          <div class="col-6"><p id="7m"><p id="7d" class="div2"></p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg8 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="clearfix">
+        <div class="row">
+          <center>   <div class="col-9"><h1 id="8t"></h1></div></center>
+          <div class="col-4"><img id="8f" style="min-height:  500px; max-width:  330px; "></div>
+          <div class="col-6"><p id="8m"><p id="8d" class="div2"></p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg9 " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="clearfix">
+        <div class="row">
+          <center>  <div class="col-9"><h1 id="9t"></h1></div></center>
+          <div class="col-4"><img id="9f" style=" min-height:  500px; max-width:  330px; " ></div>
+          <div class="col-6"><p id="9m"><p id="9d" class="div2"></p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6"><a href="#" class="myButton">Requisitar</a></div>
+                <div class="col-6"><a href="#" class="myButton">Classificar</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- modal -->
     <div class="container text-center" style="display:none" id="div" >
       <div class="row row-cols-4">
